@@ -32,6 +32,7 @@ module.exports = {
         namedComponents: "arrow-function",
       },
     ],
+    "react/prop-types": [0]
   },
   overrides: [
     {
