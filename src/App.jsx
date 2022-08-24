@@ -50,7 +50,7 @@ const App = () => {
       }}
     >
       <Searcher setInputUser={setInputUser} />
-      <UserCard userState={userState} />
+      {notFound ? <NotFound /> : <UserCard userState={userState} />}
     </Container>
   )
 }
